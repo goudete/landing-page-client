@@ -9,15 +9,15 @@ function App() {
         <div className="container">
           <img src={logo} className="App-logo" alt="logo" />
             <code>
-              <h1>
-                Win a prize
-              </h1>
+              <h2>
+               Pop up list in LA
+              </h2>
             </code>
           <div className="itemsWrapper">
             <FormGroup>
                 <InputGroup 
                   id="text-input" 
-                  placeholder="Placeholder text" 
+                  placeholder="me@mail.com" 
                   style={{ height: '2.5em', width: '20em'}}
                   className="item"
                   large
@@ -26,7 +26,7 @@ function App() {
                   className="item"
                   style={{ width: '5em', height: '3em', backgroundColor: '#1DA1F2'}}
                 >
-                  Win
+                  <b>Get list</b>
                 </Button>
 
             </FormGroup>
